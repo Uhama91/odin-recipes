@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  background-color: rgb(221, 255, 251);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+  color: #000000;
+  margin: 16px auto 16px auto;
+}
+
+.link {
+  margin: 32px 0px 0px 16px;
+}
+
+img {
+  display: block;
+  margin: 0px auto 16px auto;
+  width: 60%;
+}
+
+main {
+  margin: 0px 0px 48px 0px;
+}
+
+p {
+  margin: 0px auto 16px auto;
+  width: 90%;
+}
+
+h3,
+h4 {
+  margin: 0px 0px 8px 16px;
+}
+
+ul,
+ol {
+  margin: 0px 0px 8px 16px;
+}
+
+li {
+  margin: 0px 0px 4px 0px;
+}
