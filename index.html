@@ -1,20 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>The Odin Recipes</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Header section containing the main title -->
     <header>
-    <h1>Odin Recipes</h1>
+      <h1>Odin Recipes</h1>
     </header>
 
-    <div class="link">
-        <a href="./recipes/lasagna.html">Lasagna Recipe</a><br>
-        <a href="./recipes/chicken_curry.html">Chicken Curry</a><br>
-        <a href="./recipes/beef_stroganoff.html">Beef Stroganoff</a>
+    <!-- Container for the recipe links and images -->
+    <div class="link-home container">
+
+      <!-- Lasagna Recipe Section -->
+      <div class="container-column item">
+        <!-- Link to Lasagna recipe page -->
+        <a class="item" href="./recipes/lasagna.html">Lasagna Recipe</a>
+        <!-- Image of the Lasagna dish -->
+        <img
+          class="item img-home"
+          src="./recipes/lasagna_pic.jpg"
+          alt="Picture of lasagna dish"
+        />
+      </div>
+
+      <!-- Chicken Curry Recipe Section -->
+      <div class="container-column item">
+        <!-- Link to Chicken Curry recipe page -->
+        <a class="item" href="./recipes/chicken_curry.html">Chicken Curry</a>
+        <!-- Image of the Chicken Curry dish -->
+        <img
+          class="item img-home"
+          src="./recipes/chicken_curry_pic.jpg"
+          alt="Picture of chicken curry dish"
+        />
+      </div>
+
+      <!-- Beef Stroganoff Recipe Section -->
+      <div class="container-column item">
+        <!-- Link to Beef Stroganoff recipe page -->
+        <a class="item" href="./recipes/beef_stroganoff.html">Beef Stroganoff</a>
+        <!-- Image of the Beef Stroganoff dish -->
+        <img
+          class="item img-home"
+          src="./recipes/beef_stroganoff_pic.jpg"
+          alt="Picture of beef stroganoff dish"
+        />
+      </div>
+
+    </div> <!-- End of main container -->
+  </body>
     </div>
-</body>
+  </body>
 </html>

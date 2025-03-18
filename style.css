@@ -1,9 +1,23 @@
+/* 
+  Universal selector (*) applies styles to all elements in the document.
+  - Removes default margin.
+  - Sets a light cyan background color.
+  - Uses Georgia font with fallbacks to Times New Roman and Times.
+*/
 * {
   margin: 0px;
   background-color: rgb(221, 255, 251);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* 
+  Styles for the main heading (h1).
+  - Centers the text.
+  - Uses Georgia font with fallback options.
+  - Sets font size to 3rem for better visibility.
+  - Changes text color to black.
+  - Adds margin spacing above and below the heading.
+*/
 h1 {
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -12,35 +26,124 @@ h1 {
   margin: 16px auto 16px auto;
 }
 
-.link {
-  margin: 32px 0px 0px 16px;
+/* 
+  Styles the container for homepage links (recipe list).
+  - Centers the section horizontally with margin auto.
+  - Sets the width to 80% of the viewport.
+*/
+.link-home {
+  margin: 0px auto 0px auto;
+  width: 80%;
 }
 
-img {
+/* 
+  Styles the home link.
+  - Adds left margin for spacing.
+  - Adds bottom margin to create spacing between elements.
+*/
+.link {
+  margin: 0px auto 16px 32px;
+}
+
+/* 
+  Styles images on the homepage.
+  - Ensures images are displayed as block elements.
+  - Sets image width to 60% of the parent container.
+*/
+.img-home {
+  display: block;
+  width: 60%;
+}
+
+/* 
+  Styles images inside the recipe pages.
+  - Ensures images are block elements.
+  - Centers images with margin auto.
+  - Sets width to 60% to make images responsive.
+*/
+.img-block {
   display: block;
   margin: 0px auto 16px auto;
   width: 60%;
 }
 
+/* 
+  Styles the <main> section in recipe pages.
+  - Adds bottom margin for spacing.
+*/
 main {
   margin: 0px 0px 48px 0px;
 }
 
+/* 
+  Styles paragraphs (<p>).
+  - Centers content by setting auto left/right margin.
+  - Limits width to 90% for better readability.
+*/
 p {
   margin: 0px auto 16px auto;
   width: 90%;
 }
 
+/* 
+  Styles for headings h3 and h4.
+  - Adds margin for spacing.
+  - Ensures proper alignment.
+*/
 h3,
 h4 {
   margin: 0px 0px 8px 16px;
 }
 
+/* 
+  Centers h3 headings.
+*/
+h3 {
+  text-align: center;
+}
+
+/* 
+  Styles lists (<ul> and <ol>).
+  - Adds left margin for indentation.
+*/
 ul,
 ol {
   margin: 0px 0px 8px 16px;
 }
 
+/* 
+  Styles the flex container for ingredients sections.
+  - Uses flexbox for layout alignment.
+*/
+.container {
+  display: flex;
+}
+
+/* 
+  Styles flex containers that arrange items in a column.
+  - Uses flexbox in column direction for better stacking.
+*/
+.container-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 
+  Styles items inside flex containers.
+  - Assigns flexible sizing to allow content to grow or shrink.
+  - Aligns items in the center.
+  - Ensures even spacing between content.
+*/
+.item {
+  flex: 2 1 0%;
+  align-items: center;
+  align-content: space-between;
+}
+
+/* 
+  Styles list items (<li>).
+  - Adds bottom margin for spacing between list items.
+*/
 li {
   margin: 0px 0px 4px 0px;
 }
