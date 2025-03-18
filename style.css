@@ -126,6 +126,8 @@ ol {
 .container-column {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 /* 
@@ -135,9 +137,8 @@ ol {
   - Ensures even spacing between content.
 */
 .item {
-  flex: 2 1 0%;
+  margin-top: 10px;
   align-items: center;
-  align-content: space-between;
 }
 
 /* 
